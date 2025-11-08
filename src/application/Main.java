@@ -18,7 +18,12 @@
 
             System.out.print("Cliente: ");
             String nome = sc.nextLine();
-            Cliente cliente = new Cliente(nome);
+
+            System.out.print("Telefone: ");
+            String telefone = sc.nextLine();
+
+
+            Cliente cliente = new Cliente(nome, telefone);
 
             System.out.print("Data do Atendimento: ");
             String dataStr = sc.nextLine();
@@ -41,7 +46,10 @@
 
             System.out.println("Registro de Compra de Material");
 
-            System.out.print("Data da compra (dd/MM/yyyy): ");
+            System.out.println("Descricao da compra: ");
+            String descricao = sc.nextLine();
+
+            System.out.print("Data da compra: ");
             String dataCompraStr = sc.nextLine();
             LocalDate dataCompra = LocalDate.parse(dataCompraStr, formatter);
 
@@ -49,7 +57,7 @@
             double valorCompra = sc.nextDouble();
             sc.nextLine(); // limpar quebra de linha
 
-            CompraMaterial compra = new CompraMaterial(dataCompra, valorCompra);
+            CompraMaterial compra = new CompraMaterial(descricao, dataCompra, valorCompra);
             ArquivoCompraMaterial.salvar(compra);
             ArquivoAtendimento.salvar(atendimento);
             System.out.println("Dados salvos com sucesso nos arquivos!");

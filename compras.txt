@@ -1,3 +1,4 @@
 Data da compra: 2025-09-09, Valor: R$ 150.0
 Data da compra: 2025-09-22Valor: R$ 10.00
 Data da compra: 2025-09-30Valor: R$ 45.00
+Data da compra: 2025-04-24, Descricao: Gel base, Valor: R$ 48.00

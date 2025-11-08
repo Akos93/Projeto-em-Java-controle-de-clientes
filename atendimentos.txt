@@ -1,3 +1,4 @@
 Data: 2025-09-09, Cliente: Ana, Valor Recebido: R$ 300.0, Gasto com Material: R$ 50.0, Gasto com Uber: R$ 30.0, Valor Líquido: R$ 220.0
 Data: 2025-09-22, Cliente: Carla, Valor recebido: R$ 200.00, Gasto de material: R$ 35.00, Gasto com deslocamento: R$ 40.00, Valor líquido: R$ 125.00
 Data: 2025-09-30, Cliente: Carla, Valor recebido: R$ 250.00, Gasto de material: R$ 25.00, Gasto com deslocamento: R$ 50.00, Valor líquido: R$ 175.00
+Data: 2025-04-24, Cliente: ana, Telefone: 91982485953, Valor recebido: R$ 280.00, Gasto de material: R$ 45.00, Gasto de deslocamento: R$ 40.00, Valor líquido: R$ 195.00
